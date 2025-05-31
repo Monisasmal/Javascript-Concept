@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM</title>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .delete-btn{
+      cursor: pointer;
+      color: red;
+    }
+    
+      #itemList li{
+        margin: 8px 0;
+        list-style: none;
+      }
+      #add{
+        cursor: pointer;
+      }
+    
+  </style>
+</head>
+<body>
+  <h2>My Item List</h2>
+  <input type="text" name="item" id="itemInput" placeholder="Enter Item">
+  <button onclick="addItem()" id="add">AddItem</button>
+  <ul id="itemList"></ul>
+  <script>
+    function addItem(){
+      const input = document.getElementById("itemInput");
+      const inputData = input.value.trim();
+      if(inputData === ''){
+        alert('u have to enter something');
+        return;
+      }
+
+      const li = document.createElement("li");
+      li.textContent = inputData;
+
+      const deleteItem = document.createElement('span');
+      deleteItem.textContent = '❌';
+      deleteItem.className='delete-btn';
+      deleteItem.onclick = function(){
+        li.remove();
+      }
+      li.appendChild(deleteItem);
+      document.getElementById("itemList").appendChild(li);
+
+      input.value = '';
+    }
+  </script>
+</body>
+</html>
