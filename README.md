@@ -58,7 +58,6 @@ It is designed for:
 
 ---
 
-
 ## 🎯 Goal of This Repository
 
 To build a **strong JavaScript foundation**, master **core concepts**, and apply them effectively in **DSA and real-world applications**.
@@ -74,3 +73,20 @@ Feel free to fork this repository, raise issues, or submit pull requests to impr
 ## ⭐ If you find this helpful
 
 Don’t forget to **star ⭐ the repository** and share it with others!
+
+
+---
+
+**🙋‍♀️ Author**
+
+## Manaswini Sasmal
+
+📲 - 6370094643
+
+👩‍💻 Frontend Developer | React Enthusiast
+
+🔗 Portfolio - https://manaswini-portfolio.vercel.app/
+
+📧 manaswinisasmal5597@gmail.com
+
+🔗 LinkedIn - https://www.linkedin.com/in/manaswini-sasmal-b77a21162/
