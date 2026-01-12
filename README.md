@@ -34,7 +34,6 @@ It is designed for:
 * Closures & Hoisting
 * Execution Context
 * Event Handling
-
   * Event Bubbling & Capturing
   * Event Delegation
 * Promises & Async/Await
@@ -59,40 +58,6 @@ It is designed for:
 
 ---
 
-## 🧩 Data Structures & Algorithms (DSA)
-
-* Arrays & Strings Problems
-* Recursion
-* Searching Algorithms
-* Sorting Algorithms
-* Stack & Queue
-* Hashing
-* Linked List (Basics)
-* Time & Space Complexity
-* Problem Solving Patterns
-
----
-
-## 📁 Project Structure
-
-```
-📦 JavaScript-Concepts-With-DSA
- ┣ 📂 Basics
- ┣ 📂 Intermediate
- ┣ 📂 Advanced
- ┣ 📂 DOM
- ┣ 📂 DSA
- ┣ 📄 README.md
-```
-
----
-
-## 🛠 Tech Stack
-
-* JavaScript (ES6+)
-* HTML (for DOM examples)
-
----
 
 ## 🎯 Goal of This Repository
 
