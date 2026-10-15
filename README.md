@@ -77,9 +77,7 @@ Don’t forget to **star ⭐ the repository** and share it with others!
 
 ---
 
-**🙋‍♀️ Author**
-
-## Manaswini Sasmal
+## 🙋‍♀️ Author - Manaswini Sasmal
 
 📲 - 6370094643
 
